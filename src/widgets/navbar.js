@@ -20,18 +20,18 @@ useEffect(() => {
 }, []);
 
 return (
-<header className="header">
-    <nav className="nav">
-    <div className="logo">
-    <Link to="/">WEDD</Link>
-    </div>
+<header className="header flex justify-center sticky top-0">
+    <nav className="nav pr-8">
+        <div className="logo">
+        <Link to="/">WEDD</Link>
+        </div>
     </nav>
     <nav className="nav">
-    <nav className="nav_right">
-    <Link to="/">Home</Link>
-    <Link to="/about">About</Link>
-    <Link to="/contact">Contact</Link>
-    </nav>
+        <nav className="nav_right text-lg pr-32">
+        <Link to="/design">Preset/Design</Link>
+        <Link to="/portofolio">Portofolio</Link>
+        <Link to="/lainnya">Lainnya</Link>
+        </nav>
     </nav>
     <div className="hamburger">
     <div className="bar"></div>

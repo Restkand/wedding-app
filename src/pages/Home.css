@@ -1,8 +1,27 @@
 /* src/pages/Home.css */
+@font-face {
+    font-family: 'Montserrat Reguler';
+    src: url('../assets/fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+}
 
-.font-color {
-font-weight: bold;
-color: red;
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../assets/fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+}
+
+.color-darkblue {
+    color: #49616F;
+}
+
+.header-1 {
+    height: 1280px;
+    background-color: #FFFFFF;
+    font-family: 'Montserrat Reguler', sans-serif;
+    color: #49616F;
+}
+
+.header-1 h2 {
+    font-family: 'Montserrat Bold', sans-serif;
 }
 
 /* Tambahkan gaya tambahan sesuai kebutuhan Anda */
